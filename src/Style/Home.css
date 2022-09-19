@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+}.child_div{
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+}
+.middle_child_div{
+    width: 20rem;
+    height: 20rem;
+    text-align: center;
+    align-items: center;
+}
+#btn{
+    padding: 0.5rem 1rem;
+    margin-top: 3rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;  
+}
+
+#btn:hover{
+background-color: white;
+color: black;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#btn>a{
+    text-decoration: none;
+    color: white;
+}
+#btn>a:hover{
+ color: black;   
+}
+.child_div img{
+    width: 100%;
+   height: 100%;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
